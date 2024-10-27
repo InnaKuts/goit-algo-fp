@@ -72,7 +72,7 @@ def main():
     )
 
     unique_est, estimated = estimate_dice_rolls(
-        rng=np.random.default_rng(seed=42),
+        rng=np.random.default_rng(),
         dices=dices,
         sides=sides,
         rolls=rolls
